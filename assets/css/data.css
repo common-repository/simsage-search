@@ -1,0 +1,443 @@
+
+.analytics-area body {
+    font-family: 'Open Sans', sans-serif;
+    height: 80vh;
+}
+
+.analytics-area .busy {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    background-color: rgba(30, 30, 30, 0.5);
+}
+
+.analytics-area .busy-image {
+    position: absolute;
+    top: 20vw;
+    left: 65vh;
+    align-content: center;
+    vertical-align: center;
+    font-size: 3em;
+    color: #ffffff;
+}
+
+.analytics-area .busy-image-size {
+    width: 200px;
+    height: 200px;
+}
+
+.analytics-area div#layout {
+    text-align: center;
+}
+
+.analytics-area .margin-top {
+    margin-top: 40px;
+}
+
+.analytics-area div.container {
+    width: 80%;
+    min-width: 1024px;
+    height: 640px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #2F4A6D;
+}
+
+.analytics-area svg {
+    width: 100%;
+    height: 100%;
+}
+
+.bar {
+    fill: #80cbc4;
+}
+
+.analytics-area text {
+    font-size: 12px;
+    fill: #fff;
+}
+
+.analytics-area path {
+    stroke: gray;
+}
+
+.analytics-area line {
+    stroke: gray;
+}
+
+.analytics-area line#limit {
+    stroke: #FED966;
+    stroke-width: 3;
+    stroke-dasharray: 3 6;
+}
+
+.grid path {
+    stroke-width: 0;
+}
+
+.grid .tick line {
+    stroke: #9FAAAE;
+    stroke-opacity: 0.3;
+}
+
+text.divergence {
+    font-size: 14px;
+    fill: #2F4A6D;
+}
+
+.analytics-area text.value {
+    font-size: 14px;
+}
+
+.analytics-area text.title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.analytics-area text.label {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.analytics-area text.source {
+    font-size: 10px;
+}
+
+.button-style {
+    width: 250px;
+}
+
+.button-row {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.button-help-text {
+    margin-left: 20px;
+}
+
+.date-picker-box {
+    float: right;
+    margin-top: -35px;
+}
+
+/***** error message box ******/
+
+.error-dialog {
+    padding: 20px;
+    display: none;
+    bottom: 0;
+    background-color: #f44336; /* Red */
+    border-radius: 5px;
+    color: white;
+    width: 80% !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    clear: both;
+}
+
+.error-text {
+    font-size: 1.0em;
+    color: white;
+}
+
+.info-dialog {
+    padding: 20px;
+    display: none;
+    bottom: 0;
+    background-color: #1e74ff; /* Red */
+    border-radius: 5px;
+    color: white;
+    width: 80% !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    clear: both;
+}
+
+.info-text {
+    font-size: 1.0em;
+    color: white;
+}
+
+/* The close button */
+.close-button {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.close-button:hover {
+    color: black;
+}
+
+/************** Q&A *****************/
+
+.qna {
+}
+
+.qna .simsage-find-box {
+    float: right;
+    padding: 10px !important;
+    margin-top: -20px;
+}
+
+.qna .simsage-find-box:after {
+    clear: both;
+}
+
+.qna .find-label {
+    float: left;
+    margin-top: 8px;
+    font-size: 1.2em !important;
+    margin-right: 6px !important;
+}
+
+.qna .find-dialog {
+    float: left;
+}
+
+.qna .find-text-style {
+    padding: 4px !important;
+    width: 280px !important;
+}
+
+.qna .find-image-box {
+    float: left;
+}
+
+.qna .find-image {
+    margin-top: 8px !important;
+    margin-left: 15px !important;
+    width: 18px !important;
+    height: 18px !important;
+}
+
+.qna .simsage-find-table {
+    margin-top: 20px;
+    border-spacing: 0;
+}
+
+.qna .table-header {
+    background-color: #9FAAAE;
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.qna .id-column {
+    padding: 5px;
+    width: 50px
+}
+
+.qna .question-column {
+    padding: 5px;
+    width: 550px
+}
+
+.qna .action-column {
+    padding: 5px;
+    width: 100px
+}
+
+.qna .upload-control {
+    margin-right: 20px;
+}
+
+.qna .add-button {
+    float: right;
+    margin-right: 4px;
+}
+
+.qna .delete-button {
+    float: right;
+    margin-right: 20px;
+}
+
+.qna .add-button-image {
+    width: 20px;
+    height: 20px;
+    border: 0;
+}
+
+.qna .delete-button-image {
+    width: 20px;
+    height: 20px;
+    border: 0;
+}
+
+.qna .edit-button-image {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border: 0;
+}
+
+.qna .bottom-action-bar {
+    padding: 10px;
+}
+
+.qna .pagination-bar-tr {
+}
+
+.qna .pagination-bar {
+    float: right;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.qna .excel-label {
+    font-size: 0.9em;
+}
+
+/* add new or edit Q&A item */
+
+.qna-editor {
+    margin-top: 10px;
+    background-color: #ffffff;
+    width: 600px;
+    height: 460px;
+    border-radius: 10px;
+    position: absolute !important;
+    z-index: 99 !important;
+    border: 1px solid black;
+}
+
+.qna-editor .input-text {
+    width: 500px;
+}
+
+.qna-editor .qna-label {
+    padding: 10px;
+    font-weight: 500;
+}
+
+.qna-editor .qna-control {
+    padding: 10px;
+}
+
+.qna-editor .qna-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.qna-editor .qna-buttons-container {
+    margin-top: 20px;
+}
+
+.qna-editor .qna-buttons {
+    float: right;
+    padding: 10px;
+}
+
+/* add new or edit Synonym */
+
+.synonym-editor {
+    margin-top: 10px;
+    background-color: #ffffff;
+    width: 600px;
+    height: 460px;
+    border-radius: 10px;
+    position: absolute !important;
+    z-index: 99 !important;
+    border: 1px solid black;
+}
+
+.synonym-editor .input-text {
+    width: 500px;
+}
+
+.synonym-editor .synonym-label {
+    padding: 10px;
+    font-weight: 500;
+}
+
+.synonym-editor .synonym-control {
+    padding: 10px;
+}
+
+.synonym-editor .synonym-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.synonym-editor .synonym-buttons-container {
+    margin-top: 40px;
+}
+
+.synonym-editor .synonym-buttons {
+    float: right;
+    padding: 10px;
+}
+
+
+.qna .sem-id-column {
+    padding: 5px;
+    width: 350px
+}
+
+.qna .sem-question-column {
+    padding: 5px;
+    width: 250px
+}
+
+
+
+/* add new or edit Semantic */
+
+.semantic-editor {
+    margin-top: 10px;
+    background-color: #ffffff;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    position: absolute !important;
+    z-index: 99 !important;
+    border: 1px solid black;
+}
+
+.semantic-editor .input-text {
+    width: 500px;
+}
+
+.semantic-editor .semantic-label {
+    padding: 10px;
+    font-weight: 500;
+}
+
+.semantic-editor .semantic-control {
+    padding: 10px;
+}
+
+.semantic-editor .semantic-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.semantic-editor .semantic-buttons-container {
+    margin-top: 170px;
+}
+
+.semantic-editor .semantic-buttons {
+    float: right;
+    padding: 10px;
+}
+
